@@ -57,6 +57,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26F9D9F24CD982F00080B5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A28A704F24CD76D80093A9A3 /* HeaderFooterView.swift */,
+				A28A705024CD76D80093A9A3 /* HeaderFooterView.xib */,
+				A28A704924CD67130093A9A3 /* LabelCell.swift */,
+				A28A704A24CD67130093A9A3 /* LabelCell.xib */,
+				A28A705524CD7EA80093A9A3 /* SectionBackgroundDecorationView.swift */,
+				A28A705624CD7EA80093A9A3 /* SectionBackgroundDecorationView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A26F9DA024CD985500080B5F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A28A704D24CD70DB0093A9A3 /* SectionLayoutKind.swift */,
+				A28A705D24CD92410093A9A3 /* OrthogonalSectionKind.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		A26F9DA124CD987A00080B5F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A28A703924CD5EFE0093A9A3 /* ViewController.swift */,
+				A28A705924CD881F0093A9A3 /* AdvancedLayoutViewController.swift */,
+				A28A703B24CD5EFE0093A9A3 /* Main.storyboard */,
+				A28A705B24CD88480093A9A3 /* AdvancedLayout.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		A28A702924CD5EFE0093A9A3 = {
 			isa = PBXGroup;
 			children = (
@@ -76,23 +109,14 @@
 		A28A703424CD5EFE0093A9A3 /* swift-Compositional-layout-UICollectionView-practice */ = {
 			isa = PBXGroup;
 			children = (
+				A26F9DA124CD987A00080B5F /* ViewController */,
+				A26F9DA024CD985500080B5F /* Enum */,
+				A26F9D9F24CD982F00080B5F /* View */,
 				A28A703524CD5EFE0093A9A3 /* AppDelegate.swift */,
 				A28A703724CD5EFE0093A9A3 /* SceneDelegate.swift */,
-				A28A704F24CD76D80093A9A3 /* HeaderFooterView.swift */,
-				A28A705024CD76D80093A9A3 /* HeaderFooterView.xib */,
-				A28A703924CD5EFE0093A9A3 /* ViewController.swift */,
-				A28A705924CD881F0093A9A3 /* AdvancedLayoutViewController.swift */,
-				A28A704924CD67130093A9A3 /* LabelCell.swift */,
-				A28A704A24CD67130093A9A3 /* LabelCell.xib */,
-				A28A703B24CD5EFE0093A9A3 /* Main.storyboard */,
-				A28A705B24CD88480093A9A3 /* AdvancedLayout.storyboard */,
 				A28A703E24CD5EFF0093A9A3 /* Assets.xcassets */,
 				A28A704024CD5EFF0093A9A3 /* LaunchScreen.storyboard */,
 				A28A704324CD5EFF0093A9A3 /* Info.plist */,
-				A28A704D24CD70DB0093A9A3 /* SectionLayoutKind.swift */,
-				A28A705524CD7EA80093A9A3 /* SectionBackgroundDecorationView.swift */,
-				A28A705624CD7EA80093A9A3 /* SectionBackgroundDecorationView.xib */,
-				A28A705D24CD92410093A9A3 /* OrthogonalSectionKind.swift */,
 			);
 			path = "swift-Compositional-layout-UICollectionView-practice";
 			sourceTree = "<group>";

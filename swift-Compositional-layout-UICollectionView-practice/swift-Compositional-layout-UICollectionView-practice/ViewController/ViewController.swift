@@ -73,7 +73,7 @@ extension ViewController: UICollectionViewDataSource {
             guard let headerFooterView = collectionView.dequeueReusableSupplementaryView(ofKind: ViewController.sectionFooterElementKind,
                                                                                          withReuseIdentifier: "HeaderFooterView",
                                                                                          for: indexPath) as? HeaderFooterView else {
-                fatalError("Could not find proper header")
+                fatalError("Could not find proper footer")
             }
             headerFooterView.set(text: "Section Footer: \(indexPath.section)")
             return headerFooterView
